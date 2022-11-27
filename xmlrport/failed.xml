@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="66.460792">
+<testcase classname="to check filter option in homebase" name="To check one filter and clear it" time="66.460792">
+<system-out><![CDATA[Given launch the browser for checking filter................................passed
+And launch the url for filter checking......................................passed
+When click furniture option and dining table option.........................passed
+And click colour filter option..............................................passed
+And clcik remove filter option..............................................passed
+Then close the url after checking...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To check one filter and clear it",
+        "description": "",
+        "id": "to-check-filter-option-in-homebase;to-check-one-filter-and-clear-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26963295800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the browser for checking filter",
+            "match": {
+              "location": "Homebaselogin.launch_the_browser_for_checking_filter()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8757252100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "launch the url for filter checking",
+            "match": {
+              "location": "Homebaselogin.launch_the_url_for_filter_checking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14254938600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click furniture option and dining table option",
+            "match": {
+              "location": "Homebaselogin.click_furniture_option_and_dining_table_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11973671500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click colour filter option",
+            "match": {
+              "location": "Homebaselogin.click_colour_filter_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1890893800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clcik remove filter option",
+            "match": {
+              "location": "Homebaselogin.clcik_remove_filter_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2604095100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the url after checking",
+            "match": {
+              "location": "Homebaselogin.close_the_url_after_checking()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature7"
+          }
+        ]
+      }
+    ],
+    "name": "to check filter option in homebase",
+    "description": "",
+    "id": "to-check-filter-option-in-homebase",
+    "keyword": "Feature",
+    "uri": "src/test/resources/filter.feature",
+    "tags": [
+      {
+        "name": "@feature7",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
