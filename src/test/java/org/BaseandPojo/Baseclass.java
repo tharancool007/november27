@@ -413,6 +413,11 @@ public static JavascriptExecutor js1;
 	    
 	    System.out.println("writed.......");
 	}
+	
+	
+	private void changes2() {
+		System.out.println("checking conflicts");
+	}
 
 private void changes() {
 	// TODO Auto-generated method stub
