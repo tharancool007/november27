@@ -19,11 +19,6 @@ public class PojoHomebase extends Baseclass {
 	@FindAll({
 		@FindBy(xpath="(//span[@class='responsiveAccountHeader_openAccountPanelText'])[1]"),
 
-		@FindBy(xpath="//span[text()='Acco]"),
-
-		@FindBy(xpath="(//span[text()='Account'])[2]"),
-		@FindBy(xpath="(//span[text()='Account'])[3]"),
-
 		@FindBy(xpath="(//span[text()='Account'])[1]")
 		
 	})private WebElement loginoption;
